@@ -1,0 +1,188 @@
+
+.portfolio-header{
+portfolio-headerfont-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 135%;
+letter-spacing: 0%;
+}
+.design p{
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  font-size: 40px;
+  margin-left: 30px;
+  color: rgba(217, 217, 217, 1);
+}
+.design h3{
+  position: absolute;
+  margin-top: 130px;
+  display: flex;
+  font-size: 20px;
+  margin-left: 30px;
+   color: #6c63ff;
+  background-color: linear-gradient(90deg, #5b5bff, #ff4d6d);
+
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.portfolio {
+  padding: 40px;
+}
+.view{
+  width: 100%;
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+
+
+.grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: 20px;
+}
+.grid  :hover{
+   transform: translateY(-5px);
+}
+.portfolio-header small{
+  margin-top: -40px;
+
+}
+.grid-one{
+  width: 463px;
+height: 292px;
+
+}
+.grid-two{
+  width: 365px;
+height: 292px;
+
+}
+.grid-three{
+  width: 268px;
+height: 292px;
+
+}
+.grid-four{
+ width: 268px;
+height: 292px;
+margin-top: -70px;
+
+
+}
+.grid-five{
+width: 365px;
+height: 292px;
+margin-left: -200px;
+margin-top: -70px;
+}
+.grid-six{
+  width: 463px;
+height: 292px;
+margin-left: -200px;
+margin-top: -70px;
+}
+.grid-eight{
+width: 365px;
+height: 292px;
+margin-top: -70px;
+}
+.grid-seven{
+  width: 463px;
+height: 292px;
+margin-top: -70px;
+}
+.grid-Nine{
+width: 268px;
+height: 292px;
+margin-top: -70px;
+}
+.first-button{
+  margin-left: -50px;
+  background: red;
+}
+.second-button{
+  margin-left: -950px;
+  background: black;
+  color: white;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .grid{
+    grid-template-columns: 1fr;
+  }
+  .grid-one{
+    width: 100%;
+    margin-top: 6rem;
+     margin-left: -2rem;
+  }
+  .grid-two,.grid-three,.grid-four,.grid-seven,.grid-five,.grid-Nine{
+    width: 100%;
+    margin-left: -2rem;
+  }
+  .grid-five,.grid-six,
+  .grid-eight{
+    width: 99%;
+    margin-left: -2rem;
+  }
+  .grid-four,.grid-five,.grid-six,.grid-seven,.grid-eight,.grid-Nine{
+    display: none;
+  }
+  .main-grid{
+    display: none;
+  }
+  .load{
+    margin-top: -90rem;
+    margin-left:-39rem;
+  }
+  .portfolio-header small{
+    padding-top: -16rem;
+  }
+  .first-button{
+  margin-left: -100rem;
+  background:red;
+  margin-top: 15rem;
+
+}
+.second-button {
+  margin-left: -100rem;
+  background:black;
+  margin-top: 15rem;
+
+
+}
+  
+  
+  
+.design h3{
+  margin-top: 13rem;
+}
+   .design p{
+      padding-top: 13rem;
+              position: absolute;
+}
+     }
+     

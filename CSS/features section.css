@@ -1,0 +1,169 @@
+.features{
+  margin-top: 80px;
+  padding-left: 50px;
+  background: linear-gradient(90deg, #5b5bff, #ff4d6d);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  font-family: Plus Jakarta Sans;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: 15%;
+}
+
+
+
+.features-one{
+font-family: Poppins;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 40px;
+letter-spacing: 0%;
+margin-left: 30px
+}
+h6{
+  font-family: "Plus Jakarta Sans";
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0;
+color: #333;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  
+}
+
+.btn-primary-09 {
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s;
+  background: black;
+  
+  margin-top: 800px;
+  margin-left: 30.9px;
+
+
+  
+}
+
+.btn-primary-09:hover {
+  transform: translateY(7px);
+}
+
+
+
+.features-words{
+  margin-top: -270px;
+  padding-left: 30px;
+  color: #666;
+  font-style: Medium;
+  font-family: Plus Jakarta Sans;
+}
+@media (max-width:600px) {
+}
+
+  .features-words{
+     margin-top: -100rem;
+
+    
+  }
+  .btn-primary-08{
+    margin-top: -96.7rem;
+    
+    position: absolute;
+    margin-left: 2.5rem;
+  }
+  .btn-primary-09{
+    margin-top: -97.3rem;
+    position: absolute;
+    
+
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.blog {
+  padding: 40px 20px;
+  margin-top: 30px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+   margin-top: 30px;
+}
+
+.blog-card {
+
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.blog-card img {
+  width: 270px;
+  height: 120px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+.blog-card img:hover{
+ transform: translateY(10px);
+}
+
+
+.blog-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  color: #777;
+  line-height: 1.6;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .blog-container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 40rem;
+    margin-top: -10rem;
+    
+  }
+  .blog-card:nth-child(1),
+.blog-card:nth-child(3) {
+  margin-top: -20px;
+}
+.blog-card:nth-child(2),
+.blog-card:nth-child(4) {
+  margin-top: -60px;
+}
+.btn-primary-08{
+    margin-top: -27.3rem;
+    
+    position: absolute;
+    margin-left: 2.5rem;
+  }
+  .btn-primary-09{
+    margin-top: -27.9rem;
+    position: absolute;
+    
+
+}
+
+}

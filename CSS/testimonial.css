@@ -1,0 +1,177 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+/* ---------- TESTIMONIALS ---------- */
+.testimonials {
+  padding: 80px 8%;
+  text-align: center;
+}
+.profile img{
+  margin-top: -200px;
+  margin-left: -20px;
+}
+.profile img:hover{
+  transform: translateY(4px);
+}
+.profile span img{
+  margin-top: 10px;
+  margin-left: -200.6px;
+}
+.profile span:hover{
+  transform: translateY(4px);
+}
+.profile p {
+  margin-top: -35px;
+  margin-left: 30px;
+  font-family: Poppins;
+font-weight: 500px;
+font-style: Medium;
+font-size: 17.65px;
+leading-trim: NONE;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+.profile 
+h6 {
+  margin-top: 35px;
+  margin-left: 30px;
+  font-family: Poppins;
+font-weight: 600px;
+font-style: SemiBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 130%;
+letter-spacing: 0%;
+
+}
+.profile h6:hover{
+  transform: translateY(4px);
+}
+.label {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: purple;
+}
+
+.testimonials h2 {
+  margin: 10px 0 50px;
+  font-size: 32px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  background: #fff; 
+  padding: 30px;
+  width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+}
+
+
+
+
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+  border-radius: 50%;
+  
+}
+
+.star {
+  color: #f5a623;
+}
+
+/* ---------- FAQ ---------- */
+.faq {
+  background: #0f0f0f;
+  color: #fff;
+  padding: 90px 8%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.faq-left details {
+  background: #1a1a1a;
+  margin-bottom: 15px;
+  padding: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 600;
+}
+
+details p {
+  margin-top: 10px;
+  color: #bbb;
+}
+
+.faq-right h2 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+.faq-right p {
+  color: #aaa;
+  line-height: 1.6;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 600px) {
+  .testimonial-wrapper {
+    flex-direction: column;
+  }
+
+  .faq {
+    grid-template-columns: 1fr;
+  }
+  .testimonial-wrapper h6{
+      margin-top: 7rem;
+  }
+  .profile img{
+  margin-top: -25rem;
+  margin-left: 1rem;
+  
+}
+.testimonial-wrappe p{
+  padding-top: 8rem;
+}
+.profile h6{
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+.profile p{
+  margin-top: 4rem;
+  margin-left: -3rem;
+}
+}

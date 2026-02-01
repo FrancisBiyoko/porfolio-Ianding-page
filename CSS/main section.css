@@ -1,0 +1,66 @@
+.main-section{
+  margin-top: 10px;
+  padding-top: 60px;
+  display: flex;
+  gap: 140px;
+}
+.main-section img {
+  max-width: 120px;
+  margin-left: 70px;
+  width: 70px;
+height: 40px;
+opacity: 1;
+top: 1034px;
+left: 135px;
+
+}
+.main-sectionimg {
+  max-width: 120px;
+  transition: 
+    transform 0.4s ease,
+    filter 0.4s ease,
+    opacity 0.4s ease;
+  opacity: 0.75;
+}
+
+/* HOVER EFFECT */
+.main-section img:hover {
+  transform: translateY(-20px) scale(1.08);
+  opacity: 1;
+  filter: grayscale(0%);
+}
+
+/* OPTIONAL: Start logos slightly gray */
+.main-sectionimg {
+  filter: grayscale(100%);
+}
+
+@media (max-width:600px) {
+  .main-section{
+    margin-top: -50px;
+    padding-top:-40px;
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    
+
+  }
+  .main-section img {
+    margin: auto;
+    max-width: 100px;
+
+}
+.main-section img {
+    transition: opacity 0.3s ease;
+  }
+
+  .main-section img:first-child,
+  .main-section img:last-child {
+    opacity: 0;
+    display:none;
+    
+
+}
+
+}

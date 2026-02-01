@@ -1,0 +1,153 @@
+
+.services {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: -30px;
+}
+
+.service-card{
+  background: #fff;
+
+}
+.service-card-one{
+  margin-top: -120px;
+  margin-left: 120px;
+}
+.service-card-two{
+  margin-left: -110px;
+  margin-top: -170px;
+}
+
+.service-card-three{
+margin-top: 70px;
+margin-left: 98.9px;
+}
+.service-card-four{
+  margin-left: -96px;
+}
+.all button{
+  margin-top: 10px;
+}
+.service-card img {
+  width: 270px;
+height: 120px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin-left: 300px;
+  margin-top: -30px;
+}
+
+.service-card h3 {
+  margin: 15px 0 8px;
+  font-size: 22px;
+  color: #333;
+  margin-left: 300px;
+}
+
+.service-card p {
+  color: #777;
+  line-height: 1.6;
+  padding-bottom: 15px;
+  margin-left: 300px;
+  
+}
+.service-card img {
+  width: 270px;
+height: 120px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin-left: 300px;
+  margin-top: -30px;
+}
+
+.service-card h3 {
+  margin: 15px 0 8px;
+  font-size: 22px;
+  color: #333;
+  margin-left: 300px;
+}
+
+.service-card p {
+  color: #777;
+  line-height: 1.6;
+  padding-bottom: 15px;
+  margin-left: 300px;
+}
+.service-card img {
+  width: 270px;
+height: 120px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  margin-left: 300px;
+  margin-top: -30px;
+}
+
+.service-card h3 {
+  margin: 15px 0 8px;
+  font-size: 22px;
+  color: #333;
+  margin-left: 300px;
+}
+
+.service-card p {
+  color: #777;
+  line-height: 1.6;
+  padding-bottom: 15px;
+  margin-left: 300px;
+}
+ .imag-01{
+  margin-top: -30px;
+ }
+.all button{
+  margin-top: -320px;
+}
+.load-one{
+  ma
+}
+/* 📱 Mobile View */
+@media (max-width: 1024px) {
+  .services {
+    grid-template-columns: 1fr;
+    .service-card  img:first-child,
+  .service-card img:third-child {
+    margin-top: -40px;
+  }
+}
+}
+@media (max-width: 600px) {
+  .all button{
+    margin-top: -99.9rem;
+  }
+  
+.service-card-one{
+  margin-top: 10rem;
+  margin-left: -15rem;
+
+}
+.service-card-two{
+  margin-top: 1rem;
+  margin-left: -15rem;
+}
+.service-card-three{
+  margin-top: 1rem;
+  margin-left: -15rem;
+}
+.service-card-four{
+  margin-top: 1rem;
+  margin-left: -15rem;
+}
+.load-all{
+  margin-top: -15rem;
+  margin-left: -1300rem;
+}
+.service-card img{
+  width:60%;
+  height: 60%;
+}
+.service-card p{
+  padding-left: 17rem;
+
+}
+}
