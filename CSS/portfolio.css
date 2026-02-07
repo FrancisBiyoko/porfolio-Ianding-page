@@ -7,6 +7,36 @@ font-size: 40px;
 leading-trim: NONE;
 line-height: 135%;
 letter-spacing: 0%;
+padding-left: 60px;
+}
+.small{
+  background: linear-gradient(90.51deg, #5635DD -2.48%, #E63573 99.68%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  margin-left: -30px;
+  font-size: 14px;
+}
+.h2{
+font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 40px;
+
+
+
+  
+  
+}
+.design h3{
+  position: absolute;
+  margin-top: 130px;
+  display: flex;
+  font-size: 14px;
+  margin-left: 30px;
+   color: #6c63ff;
+  background-color: linear-gradient(90deg, #5b5bff, #ff4d6d);
+
+
 }
 .design p{
   position: absolute;
@@ -16,20 +46,7 @@ letter-spacing: 0%;
   margin-left: 30px;
   color: rgba(217, 217, 217, 1);
 }
-.design h3{
-  position: absolute;
-  margin-top: 130px;
-  display: flex;
-  font-size: 20px;
-  margin-left: 30px;
-   color: #6c63ff;
-  background-color: linear-gradient(90deg, #5b5bff, #ff4d6d);
 
-
-}
-* {
-  box-sizing: border-box;
-}
 
 .portfolio {
   padding: 40px;
@@ -113,11 +130,12 @@ height: 292px;
 margin-top: -70px;
 }
 .first-button{
-  margin-left: -50px;
+  margin-left: -85px;
   background: red;
 }
 .second-button{
-  margin-left: -950px;
+  margin-top: -10px;
+  margin-left: -960px;
   background: black;
   color: white;
 }
@@ -138,6 +156,10 @@ margin-top: -70px;
     width: 100%;
     margin-top: 6rem;
      margin-left: -2rem;
+    
+  }
+  .all-3{
+    margin-top: 100rem;
   }
   .grid-two,.grid-three,.grid-four,.grid-seven,.grid-five,.grid-Nine{
     width: 100%;
@@ -165,12 +187,14 @@ margin-top: -70px;
   margin-left: -100rem;
   background:red;
   margin-top: 15rem;
-
+position: relative;
+display: none;
 }
 .second-button {
   margin-left: -100rem;
   background:black;
   margin-top: 15rem;
+  display: none;
 
 
 }
@@ -183,6 +207,9 @@ margin-top: -70px;
    .design p{
       padding-top: 13rem;
               position: absolute;
+}
+.small{
+  font-size: 3rem;
 }
      }
      

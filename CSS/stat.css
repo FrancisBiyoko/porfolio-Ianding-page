@@ -3,22 +3,32 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 60px 10%;
-  text-align: center;
-  background: #fff;
+margin-left: -90px;
 }
 
 .stats h2 {
   margin-top: 20px;
   color: #b68cff;
-  font-size: 50px;
-  margin-left: -30px;
+  margin-left: 0px;
+  font-family: Poppins;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 60.94px;
+line-height: 140%;
+letter-spacing: 0%;
+gap: 50px;
 }
 
 .stats p {
-  margin-top: px;
-  color: #555;
+ background: rgba(0, 0, 0, 1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+margin-left: 30px;
+margin-top: -10px;
 }
-
+.some{
+  color: (255, 255, 255, 1)
+}
 /* PORTFOLIO */
 .portfolio {
   padding: 60px 10%;
@@ -119,10 +129,7 @@ button {
   flex-grow: span 2;
 
 }
-.grid:nth-child(2),
-.grid:nth-child(4) {
-
 
 }
   
-}
+

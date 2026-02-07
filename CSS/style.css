@@ -29,12 +29,16 @@
 }
 
 .features-left h5{
-  color:purple;
+   background:linear-gradient( #5635DD 48%, #E63573 99.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   letter-spacing:2px;
   margin-bottom:10px;
   margin-top: 60px;
   font-size: 30px;
   margin-left: 40px;
+
+
 }
 
 .features-left h1{
@@ -48,6 +52,16 @@
  color: rgba(170, 170, 170, 1);
   line-height:1.7;
   margin-bottom:30px;
+  margin-left: 29px;
+  font-size: 16px;
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+
 }
 
 

@@ -1,14 +1,6 @@
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
-}
+ 
 
-body {
-  background: #fff;
-  color: #111;
-}
+
 
 /* ---------- TESTIMONIALS ---------- */
 .testimonials {
@@ -16,15 +8,17 @@ body {
   text-align: center;
 }
 .profile img{
-  margin-top: -200px;
-  margin-left: -20px;
+
+  margin-top: -190px;
+  margin-left: -300px;
 }
 .profile img:hover{
   transform: translateY(4px);
 }
 .profile span img{
-  margin-top: 10px;
-  margin-left: -200.6px;
+  width: auto;
+  margin-top: 150px;
+  margin-left: -200px;
 }
 .profile span:hover{
   transform: translateY(4px);
@@ -41,18 +35,13 @@ line-height: 130%;
 letter-spacing: 0%;
 
 }
+p{
+  margin-top: 70px;
+  font-size: 14px;
+}
 .profile 
 h6 {
-  margin-top: 35px;
-  margin-left: 30px;
-  font-family: Poppins;
-font-weight: 600px;
-font-style: SemiBold;
-font-size: 16px;
-leading-trim: NONE;
-line-height: 130%;
-letter-spacing: 0%;
-
+ margin-top: 150px;
 }
 .profile h6:hover{
   transform: translateY(4px);
@@ -70,20 +59,21 @@ letter-spacing: 0%;
 
 .testimonial-wrapper {
   display: flex;
-  gap: 25px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
 
 .testimonial-card {
+  display: flex;
+  grid-template-columns: repeat(3,1fr);
   background: #fff; 
-  padding: 30px;
-  width: 320px;
+  gap: -110;
+  width: auto;
+  height: auto;
   border-radius: 14px;
   box-shadow: 0 10px 40px rgba(0,0,0,0.08);
 }
-
-
 
 
 
@@ -159,19 +149,29 @@ details p {
       margin-top: 7rem;
   }
   .profile img{
-  margin-top: -25rem;
-  margin-left: 1rem;
+  margin-top: -16rem;
+  margin-left: -24rem;
   
 }
 .testimonial-wrappe p{
-  padding-top: 8rem;
+  padding-top: 14rem;
 }
 .profile h6{
-  margin-top: 4rem;
-  margin-left: 1rem;
+  margin-top: 9rem;
+  margin-left: -9rem;
 }
 .profile p{
   margin-top: 4rem;
   margin-left: -3rem;
 }
+.profile span img{
+  margin-top: 10rem;
+  margin-left: -25rem;
+
+}
+.testimonial-card p{
+  margin-top: 30rem;
+  
+}
+
 }

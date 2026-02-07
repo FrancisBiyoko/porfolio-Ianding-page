@@ -23,6 +23,7 @@ body {
 }
 
 .logo {
+  margin-left: 27px;
   font-weight: 700;
   font-size: 18px;
   background: linear-gradient(rgba(214, 56, 130, 1));
@@ -148,15 +149,15 @@ font-size: 12.3rem;
 
 
 h2{
-  font-size: 12.2rem;
-  padding-left: 60px;
+  font-size: 12.6rem;
+  padding-left: 25px;
   position: relative;
   margin-top: 20px;
 }
 .walker{
-  font-size: 12.2rem;
-  padding-left: 720px;
-  margin-top: -261px;
+  font-size: 12.6rem;
+  padding-left: 702px;
+  margin-top: -269px;
   color: white;
   
   
@@ -166,7 +167,8 @@ h2{
 .hero-text p {
   margin: 20px 0;
   font-size: 18px;
-  color: #555;
+  color: rgba(102, 102, 102, 1);
+;
   max-width: 420px;
   height: auto;
 }
@@ -179,6 +181,16 @@ h2{
   border-radius: 20px;
   object-fit: cover;
   animation: fadeIn 1.5s ease;
+}
+.text-main{
+  color: rgba(18, 20, 29, 0.8);
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 40px;
+letter-spacing: 0.77px;
+text-align: center;
+
 }
 
 /* ANIMATIONS */
@@ -242,7 +254,7 @@ h2{
   .walker{
     margin-top: -5.3rem;
     color:black;
-  margin-left: -28rem;
+  margin-left: -27rem;
    font-size: 4rem;
   display: block;
 font-weight: bold;
@@ -319,4 +331,17 @@ font-weight: bold;
 h2{
   margin-top: -7rem;
 }
+}
+@media (max-width: 375px) {
+ .nav{
+  
+}
+h2{
+  font-size: 12.6rem;
+ padding-left: -20rem;
+}
+.walker{
+  font-size: 12.6rem;
+}
+  
 }
